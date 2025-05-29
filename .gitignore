@@ -1,0 +1,19 @@
+# Ignore everything in the root except the gitignore file, george-street-co-op theme directory and plugin
+/*
+!.gitignore
+
+# Don't ignore parent wp-content folder
+!wp-content/
+wp-content/*
+
+# Don't ignore parent plugins and themes folders
+!wp-content/plugins/
+!wp-content/themes/
+
+# Don't ignore site theme
+wp-content/plugins/*
+!wp-content/plugins/george-street-co-op/
+
+# Don't ignore site plugin
+wp-content/themes/*
+!wp-content/themes/george-street-co-op/
