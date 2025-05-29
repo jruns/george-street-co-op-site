@@ -1,6 +1,7 @@
 # Ignore everything in the root except the gitignore file, george-street-co-op theme directory and plugin
 /*
 !.gitignore
+!README.md
 
 # Don't ignore parent wp-content folder
 !wp-content/
