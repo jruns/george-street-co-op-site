@@ -1,0 +1,50 @@
+/*
+Theme Name: George Street Co-op
+Theme URI: 
+Author: George Street Co-op
+Author URI: 
+Description: George Street Co-op WordPress theme
+Requires at least: 6.8
+Tested up to: 6.8
+Requires PHP: 5.7
+Version: 
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: george-street-co-op
+Tags: 
+*/
+
+/***** Homepage - discount table *****/
+body.home .wp-block-table.is-style-gsc-stripes {
+    background-color: initial;
+    border-bottom: 1px solid #f5f8d3;
+    border-collapse: inherit;
+    border-spacing: 0;
+}
+body.home .wp-block-table.is-style-gsc-stripes tbody tr:nth-child(2n+1) {
+    background-color: #f5f8d3;
+}
+body.home .wp-block-table.is-style-gsc-stripes tbody tr > td {
+    border: 0;
+}
+body.home .wp-block-table.is-style-gsc-stripes tbody tr > td:first-of-type {
+    white-space: nowrap;
+}
+
+/***** Homepage - events list *****/
+body.home .em-events-list {
+    grid-gap: 5px;
+}
+body.home .em-events-list > p {
+    margin-top: 0;
+}
+
+/***** Committee - Index page of all committees *****/
+.committees-featured-list .wp-block-query .type-committee:nth-of-type(2n+1) > .wp-block-columns {
+    flex-direction: row-reverse;
+}
+
+/***** Committee - Single committee page *****/
+body.single-committee .em-events-list {
+    grid-gap: 15px;
+}
