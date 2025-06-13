@@ -167,8 +167,8 @@
 			],
 			"fontSizes": [
 				{
-					"name": "Extra small",
-					"size": "10px",
+					"name": "Regular",
+					"size": "16px",
 					"slug": "custom-1"
 				},
 				{
@@ -198,6 +198,14 @@
 				}
 			},
 			"link": {
+				":hover": {
+					"color": {
+						"text": "#334d00"
+					}
+				},
+				"color": {
+					"text": "#669900"
+				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--open-sans)"
 				}
