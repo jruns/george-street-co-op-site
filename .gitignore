@@ -11,10 +11,11 @@ wp-content/*
 !wp-content/plugins/
 !wp-content/themes/
 
-# Don't ignore site theme
+# Don't ignore site plugin
 wp-content/plugins/*
+!wp-content/plugins/gscoop-plugin/
 !wp-content/plugins/george-street-co-op/
 
-# Don't ignore site plugin
+# Don't ignore site theme
 wp-content/themes/*
 !wp-content/themes/george-street-co-op/
